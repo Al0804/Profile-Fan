@@ -22,7 +22,7 @@ let currentSlide = 0;
 const totalSlides = document.querySelectorAll('.kinnie-card').length;
 let interval;
 let typingText = "FAN";
-let aboutText = "I'm INFP FINR IF(N) EII-2Fi-H SO/SP459 ELVF³³⁴¹ /R/[L]oaI A[O]Tw/D/Rg melancholic-phelgmatic mel - sup - meph BVPN Cabin 4 Pisces";
+let aboutText = "I'm INFP FiNe IF(N) EII-2Fi-H SO/SP459 ELVF³³⁴¹ /R/[L]oaI A[O]Tw/D/Rg melancholic-phelgmatic mel - sup - meph BVPN Cabin 4 Pisces";
 let currentCharIndex = 0;
 let aboutCurrentCharIndex = 0;
 let playingIndex = -1;
