@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAN - Personal Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <a href="#" class="logo">FAN</a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#typology">My Typology</a>
+                <a href="#kinnies">My Kinnies</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="nav-controls">
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="active">
+        <div class="container">
+            <div class="home-content">
+                <div class="profile-img-container">
+                    <img src="Images/yuki.jpg" alt="Profile" class="profile-img">
+
+                </div>
+                <div class="profile-text">
+                    <h1>Hello, my name is</h1>
+                    <div class="typing"></div>
+                    <p>Someone who always wants to change to be better</p>
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@so4iled_experiment" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="lemon8-app.com/Hachiware" target="_blank"><i class="fas fa-lemon"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="Images/yuki2.png" alt="About Me">
+                    
+                </div>
+                <div class="about-text">
+                    <div class="typing-text"></div>
+                    <div class="tab-container">
+                        <div class="tab-buttons">
+                            <button class="tab-btn active" data-tab="hobbies">My Hobbies</button>
+                            <button class="tab-btn" data-tab="favorites">Favorite Series/Anime/Movie</button>
+                            <button class="tab-btn" data-tab="music">Favorite Music</button>
+                        </div>
+                        <div id="hobbies" class="tab-content active">
+                            <div class="skill-item">
+                                <div class="skill-name">Reading Article</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Analyzing People</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 95%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Watching Film</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 95%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="favorites" class="tab-content">
+                            <div class="card-container">
+                                <div class="card">
+                                    <img src="Images/DetectiveComic.jpg" alt="Detective Comic" class="card-img">
+
+                                    <div class="card-body">
+                                        <div class="card-title">Detective Comic</div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="Images/Skip and Loafer anime gets a spring premiere date.jpg" alt="Skip And Loafer" class="card-img">
+                                    <div class="card-body">
+                                        <div class="card-title">Skip And Loafer</div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="Images/Hero X.jpg" alt="To Be Hero X" class="card-img">
+                                    <div class="card-body">
+                                        <div class="card-title">To Be Hero X</div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="Images/★.jpg" alt="Young Hearts" class="card-img">
+                                    <div class="card-body">
+                                        <div class="card-title">Young Hearts</div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="Images/Jinx art book!.jpg" alt="Arcane" class="card-img">
+                                    <div class="card-body">
+                                        <div class="card-title">Arcane</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="music" class="tab-content">
+                            <div class="music-player" data-duration="211">
+                                <div class="music-info">
+                                    <div class="music-title">Strange - Caleste</div>
+                                    <div class="music-duration">0:00 / 3:31</div>
+                                </div>
+                                <div class="music-controls">
+                                    <button class="play-btn"><i class="fas fa-play"></i></button>
+                                    <button class="pause-btn"><i class="fas fa-pause"></i></button>
+                                </div>
+                                <audio src="Music/Celeste - Strange (Official Video) [A1AJEv50Ld4].mp3"></audio>
+                        
+                            </div>
+                            <div class="music-player" data-duration="251">
+                                <div class="music-info">
+                                    <div class="music-title">Mystery Of Love - Sufjan Stevens</div>
+                                    <div class="music-duration">0:00 / 4:11</div>
+                                </div>
+                                <div class="music-controls">
+                                    <button class="play-btn"><i class="fas fa-play"></i></button>
+                                    <button class="pause-btn"><i class="fas fa-pause"></i></button>
+                                </div>
+                                <audio src="Music/YouTube [4WTt69YO2VI].mp3"></audio>
+                            </div>
+                            <div class="music-player" data-duration="100">
+                                <div class="music-info">
+                                    <div class="music-title">We'll Never Have Sex - Leith Ross</div>
+                                    <div class="music-duration">0:00 / 1:40</div>
+                                </div>
+                                <div class="music-controls">
+                                    <button class="play-btn"><i class="fas fa-play"></i></button>
+                                    <button class="pause-btn"><i class="fas fa-pause"></i></button>
+                                </div>
+                                <audio src="Music/Leith Ross - We'll Never Have Sex (Lyric Video) [EHFvp36TfYM].mp3"></audio>
+                            </div>
+                            <div class="music-player" data-duration="247">
+                                <div class="music-info">
+                                    <div class="music-title">The Subway - Chappell Roan</div>
+                                    <div class="music-duration">0:00 / 4:06</div>
+                                </div>
+                                <div class="music-controls">
+                                    <button class="play-btn"><i class="fas fa-play"></i></button>
+                                    <button class="pause-btn"><i class="fas fa-pause"></i></button>
+                                </div>
+                                <audio src="Music/The Subway - Chappell Roan (unreleased recording 1)-yt.savetube.me.mp3"></audio>
+                            </div>
+                            <div class="music-player" data-duration="184">
+                                <div class="music-info">
+                                    <div class="music-title">Paul - Big Thief</div>
+                                    <div class="music-duration">0:00 / 3:03</div>
+                                </div>
+                                <div class="music-controls">
+                                    <button class="play-btn"><i class="fas fa-play"></i></button>
+                                    <button class="pause-btn"><i class="fas fa-pause"></i></button>
+                                </div>
+                                <audio src="Music/Big Thief - Paul [Official Audio]-yt.savetube.me.mp3"></audio>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Typology Section -->
+    <section id="typology">
+        <div class="container">
+            <h2 class="section-title">My Typology</h2>
+            <div class="typology-cards">
+                <div class="typology-card">
+                    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='250' height='350' viewBox='0 0 250 350'><rect width='250' height='350' fill='green'/><text x='50%' y='50%' font-family='Arial' font-size='30' text-anchor='middle' dominant-baseline='central' fill='black'>IF(N)</text></svg>" alt="Jungian">
+
+                    <div class="typology-card-content">
+                        <h3 class="typology-card-title">Jungian</h3>
+                        <a href="https://wiki.personality-database.com/books/jungian-derivatives" class="detail-btn">Detail</a>
+                    </div>
+                </div>
+                <div class="typology-card">
+                    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='250' height='350' viewBox='0 0 250 350'><rect width='250' height='350' fill='black'/><text x='50%' y='50%' font-family='Arial' font-size='30' text-anchor='middle' dominant-baseline='central' fill='white'>SO4</text></svg>" alt="Enneagram">
+                    <div class="typology-card-content">
+                        <h3 class="typology-card-title">Enneagram</h3>
+                        <a href="https://wiki.personality-database.com/books/enneagram/page/social-4-in-detail" class="detail-btn">Detail</a>
+                    </div>
+                </div>
+                <div class="typology-card">
+                    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='250' height='350' viewBox='0 0 250 350'><rect width='250' height='350' fill='blue'/><text x='50%' y='50%' font-family='Arial' font-size='20' text-anchor='middle' dominant-baseline='central' fill='white'>Melancholic-Phelgmatic</text></svg>" alt="Temprament">
+
+                    <div class="typology-card-content">
+                        <h3 class="typology-card-title">Temprament</h3>
+                        <a href="https://fourtemperaments.com/15-temperament-blends/" class="detail-btn">Detail</a>
+                    </div>
+                </div>
+                <div class="typology-card">
+                    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='250' height='350' viewBox='0 0 250 350'><rect width='250' height='350' fill='darkblue'/><text x='50%' y='50%' font-family='Arial' font-size='30' text-anchor='middle' dominant-baseline='central' fill='yellow'>ELVF</text></svg>" alt="Psychosophy">
+
+                    <div class="typology-card-content">
+                        <h3 class="typology-card-title">Psychosophy</h3>
+                        <a href="https://osocionike-ru.translate.goog/psychosophy/76-tipy-v-psihosofii-andersen-elvf.html?_x_tr_sl=ru&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc" class="detail-btn">Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kinnies Section -->
+    <section id="kinnies">
+        <div class="container">
+            <h2 class="section-title">My Kinnies</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="kinnie-card">
+                        <img src="Images/Raya - A Space For The Unbound.jpg" alt="Raya">
+                        <div class="kinnie-card-content">
+                            <h3 class="kinnie-card-title">Raya</h3>
+                            <a href="https://a-space-for-the-unbound.fandom.com/id/wiki/Raya" class="bio-btn">Biography Character</a>
+                        </div>
+                    </div>
+                    <div class="kinnie-card">
+                        <img src="Images/To be Hero X.jpg" alt="Nice">
+                        <div class="kinnie-card-content">
+                            <h3 class="kinnie-card-title">Nice</h3>
+                            <a href="https://to-be-hero-x.fandom.com/wiki/Nice" class="bio-btn">Biography Character</a>
+                        </div>
+                    </div>
+                    <div class="kinnie-card">
+                        <img src="Images/Aww she smiles.gif" alt="Lapiz Lazuli">
+                        <div class="kinnie-card-content">
+                            <h3 class="kinnie-card-title">Lapiz Lazuli</h3>
+                            <a href="https://steven-universe.fandom.com/wiki/Lapis_Lazuli" class="bio-btn">Biography Character</a>
+                        </div>
+                    </div>
+                    <div class="kinnie-card">
+                        <img src="Images/download (1).gif" alt="Yuki">
+                        <div class="kinnie-card-content">
+                            <h3 class="kinnie-card-title">Yuki</h3>
+                            <a href="https://fruitsbasket.fandom.com/wiki/Yuki_Sohma" class="bio-btn">Biography Character</a>
+                        </div>
+                    </div>
+                    <div class="kinnie-card">
+                        <img src="Images/Sousuke Shima Shima Sousuke GIF - Sousuke shima Shima sousuke Skip and loafer - ค้นพบและแชร์ GIF.gif" alt="Shima">
+                        <div class="kinnie-card-content">
+                            <h3 class="kinnie-card-title">Shima</h3>
+                            <a href="https://skip-and-loafer.fandom.com/wiki/Sousuke_Shima" class="bio-btn">Biography Character</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="bg-slider">
+                    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='267' height='267' viewBox='0 0 267 267'><rect width='267' height='267' fill='%238a2be2' opacity='0.3'/></svg>">
+                    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='267' height='267' viewBox='0 0 267 267'><rect width='267' height='267' fill='%236a0dad' opacity='0.3'/></svg>">
+                    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='267' height='267' viewBox='0 0 267 267'><rect width='267' height='267' fill='%238a2be2' opacity='0.3'/></svg>">
+                    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='267' height='267' viewBox='0 0 267 267'><rect width='267' height='267' fill='%236a0dad' opacity='0.3'/></svg>">
+                    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='267' height='267' viewBox='0 0 267 267'><rect width='267' height='267' fill='%238a2be2' opacity='0.3'/></svg>">
+                    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='267' height='267' viewBox='0 0 267 267'><rect width='267' height='267' fill='%236a0dad' opacity='0.3'/></svg>">
+                    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='267' height='267' viewBox='0 0 267 267'><rect width='267' height='267' fill='%238a2be2' opacity='0.3'/></svg>">
+                    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='267' height='267' viewBox='0 0 267 267'><rect width='267' height='267' fill='%236a0dad' opacity='0.3'/></svg>">
+                    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='267' height='267' viewBox='0 0 267 267'><rect width='267' height='267' fill='%238a2be2' opacity='0.3'/></svg>">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <form class="contact-form" action="https://formspree.io/f/xvgaoooy" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">FAN</div>
+                <div class="footer-social">
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@so4iled_experiment" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    <a href="lemon8-app.com/Hachiware" target="_blank"><i class="fas fa-lemon"></i></a>
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2025 FAN. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
